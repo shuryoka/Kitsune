@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<phpunit>
+    <php>
+        <!-- Base URL (no trailing slash) -->
+        <var name="config.base.url" value="http://enterprise-demo.user.magentotrial.com"/>
+
+        <!-- Selenium Settings -->
+        <var name="config.selenium.browser" value="firefox"/>
+        <var name="config.selenium.server" value="http://localhost:4444/wd/hub"/>
+    </php>
+</phpunit>

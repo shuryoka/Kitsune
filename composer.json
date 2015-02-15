@@ -1,0 +1,24 @@
+{
+  "name": "triplesense/kitsune",
+  "description": "extend PHP webdriver",
+  "keywords": ["testing"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christoph Frenes",
+      "email": "c.frenes@reply.de"
+    }
+  ],
+
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "facebook/webdriver": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Kitsune\\": "src"
+    }
+  }
+}
